@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology - Who&#x27;s Who in Legendre Conjecture Research</title>
+<link rel="canonical" href="https://wwileg.org/methodology">
+<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+<meta property="og:title" content="Methodology - Who&#x27;s Who in Legendre Conjecture Research">
+<meta property="og:description" content="A directory of the researchers most active on Legendre&#x27;s conjecture, ranked from arXiv preprint output, OpenAlex citation data, and zbMATH MSC classifications.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wwileg.org/methodology">
+<meta property="og:site_name" content="Who&#x27;s Who in Legendre Conjecture Research">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="A directory of the researchers most active on Legendre&#x27;s conjecture, ranked from arXiv preprint output, OpenAlex citation data, and zbMATH MSC classifications.">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand"><a href="./index.html">Who's Who in Legendre Conjecture Research</a></div>
+  <nav><a href="./index.html" class="">Home</a>
+<a href="./top100.html" class="">Top 100</a>
+<a href="./location.html" class="">Location</a>
+<a href="./in-memoriam.html" class="">In Memoriam</a>
+<a href="./genealogy.html" class="">Genealogy</a>
+<a href="./network.html" class="">Network</a>
+<a href="./reading-list.html" class="">Reading List</a>
+<a href="./overlap.html" class="">Overlap</a>
+<a href="./about.html" class="">About</a></nav>
+</header>
+<main>
+<h2>Methodology</h2>
+<h3>Overview</h3>
+<p>
+The composite ranking for wwileg.org draws on three bibliometric data
+sources: arXiv preprints, OpenAlex works and citations, and zbMATH
+editor-classified documents.
+Each source is scored independently, then merged using a weighted
+order-statistic formula.
+</p>
+<h3>arXiv (math.NT)</h3>
+<p>
+Preprints are fetched from the arXiv API in the math.NT (Number Theory)
+category using the search terms listed below.
+Author names are extracted from each matching paper.
+Two scores are computed: a raw paper count, and an eigenvector-centrality
+score from the co-authorship network.
+The two scores are combined and normalized to [0,&thinsp;1].
+</p>
+<p><strong>Search terms used:</strong></p>
+<ul>
+  <li>Legendre's conjecture</li>
+  <li>primes in short intervals</li>
+  <li>prime gaps</li>
+  <li>short interval</li>
+  <li>large gaps between primes</li>
+  <li>bounded gaps between primes</li>
+  <li>difference between consecutive primes</li>
+  <li>distribution of prime numbers</li>
+  <li>Andrica conjecture</li>
+  <li>Oppermann conjecture</li>
+  <li>Baker Harman Pintz</li>
+  <li>Hoheisel</li>
+  <li>Goldston Pintz Yildirim</li>
+</ul>
+<h3>OpenAlex</h3>
+<p>
+Works are fetched from OpenAlex filtered to the Mathematics field,
+using the same search terms as arXiv.
+For each qualifying work, all authors are recorded along with the
+work's cited-by count.
+Each author's score combines their total qualifying works and total
+accumulated citations, normalized to [0,&thinsp;1].
+</p>
+<h3>zbMATH</h3>
+<p>
+Documents are fetched from the zbMATH API restricted to two
+Mathematics Subject Classification codes:
+<strong>11N05</strong> (Distribution and density of primes) and
+<strong>11N36</strong> (Applications of sieves to the theory of numbers).
+Author document counts are accumulated across both classes
+and normalized to [0,&thinsp;1].
+</p>
+<h3>Score merging</h3>
+<p>
+For each researcher, the three normalized scores (arXiv, OpenAlex, zbMATH)
+are sorted best to worst.
+The composite score is a weighted average:
+0.70 &times; best rank + 0.20 &times; middle rank + 0.10 &times; worst rank.
+Researchers who appear in only one or two sources have their missing
+ranks estimated by linear interpolation from the neighboring scores;
+those estimated values appear in square brackets in the directory.
+</p>
+<h3>Known limitations</h3>
+<p>
+Author-name disambiguation is not performed beyond the automatic
+reconciliation provided by each source.
+Researchers who publish under variant name spellings may be split
+across multiple entries.
+zbMATH classes 11N05 and 11N36 are broader than Legendre's conjecture
+alone; highly-cited analysts who work on sieve methods generally may
+score higher than their Legendre-specific output would warrant.
+The arXiv search terms include several broad phrases (for example,
+"short interval") that retrieve papers not directly about Legendre's
+conjecture; such papers increase the score of researchers who work
+on the general prime-gap and short-interval problems that are the
+closest known approaches to proving the conjecture.
+</p>
+
+</main>
+<footer>
+<p>Maintained by Steve Hubbard (<a href="mailto:admin@wwileg.org">admin@wwileg.org</a>). Data sources: <a href="https://arxiv.org">arXiv</a>, <a href="https://openalex.org">OpenAlex</a>, <a href="https://zbmath.org">zbMATH Open</a>, <a href="https://www.mathgenealogy.org">Mathematics Genealogy Project</a>.</p>
+<p>Last built June 2026.</p>
+</footer>
+</body>
+</html>
