@@ -1,20 +1,17 @@
 {
   "site": "legendre",
   "n_top": 100,
-  "n_placed": 87,
+  "n_placed": 90,
   "n_unplaced_no_geocode": 0,
-  "n_unplaced_no_institution": 13,
+  "n_unplaced_no_institution": 10,
   "unplaced": [
     "#28 Suryanarayana, D.",
     "#36 Andrea Corazza",
-    "#53 Matt Visser",
     "#57 Runbo Li",
     "#58 Wolke, Dieter",
     "#66 Felix Sidokhine",
     "#67 Xavier St Leger",
-    "#78 Tristan Freiberg",
     "#79 Johan Andersson",
-    "#90 Hassani, Mehdi",
     "#94 Lola Thompson",
     "#96 Habiba Kadiri",
     "#99 De Koninck, Jean-Marie"
@@ -22,8 +19,8 @@
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 87,
-      "drawn_count": 87,
+      "stated_count": 90,
+      "drawn_count": 90,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
@@ -76,6 +73,7 @@
         "Christian Axler",
         "fadong zhang",
         "Diamond, Harold G.",
+        "Matt Visser",
         "Ramaré, Olivier",
         "Alexander P. Mangerel",
         "Adrian W. Dudek",
@@ -96,6 +94,7 @@
         "Jori Merikoski",
         "Bingrong Huang",
         "Sárközy, A.",
+        "Tristan Freiberg",
         "Hildebrand, Adolf",
         "William Banks",
         "Loïc Grenié",
@@ -106,6 +105,7 @@
         "Cem Yalcin Yildirim",
         "Alexandru Zaharescu",
         "Maier, Helmut",
+        "Hassani, Mehdi",
         "Hongmei Li",
         "Yu-Chen Sun",
         "Maurizio Laporta",
@@ -113,12 +113,13 @@
         "Kowalski, Emmanuel",
         "Vivian Kuperberg",
         "Edva Roditty-Gershon"
-      ]
+      ],
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 33,
-      "drawn_count": 33,
+      "stated_count": 34,
+      "drawn_count": 34,
       "match": true,
       "names": [
         "Pomerance, Carl",
@@ -146,6 +147,7 @@
         "Louis-Pierre Arguin",
         "Andrew Granville",
         "Xuancheng Shao",
+        "Tristan Freiberg",
         "Hildebrand, Adolf",
         "William Banks",
         "Angel V. Kumchev",
@@ -154,7 +156,8 @@
         "Montgomery, Hugh L.",
         "Kowalski, Emmanuel",
         "Vivian Kuperberg"
-      ]
+      ],
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "12_top100_europe.png",
@@ -194,12 +197,13 @@
         "Maier, Helmut",
         "Maurizio Laporta",
         "Edva Roditty-Gershon"
-      ]
+      ],
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 18,
-      "drawn_count": 18,
+      "stated_count": 19,
+      "drawn_count": 19,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
@@ -214,29 +218,33 @@
         "Jia, Chaohua",
         "shifa liu",
         "fadong zhang",
+        "Matt Visser",
         "Adrian W. Dudek",
         "Xiang Zhang",
         "Stephan Baier",
         "Bingrong Huang",
         "Hongmei Li",
         "Yu-Chen Sun"
-      ]
+      ],
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "14_top100_other.png",
-      "stated_count": 4,
-      "drawn_count": 4,
+      "stated_count": 5,
+      "drawn_count": 5,
       "match": true,
       "names": [
         "Luca, Florian",
         "Ofir Gorodetsky",
         "Z. Rudnick",
-        "Lior Bary-Soroker"
-      ]
+        "Lior Bary-Soroker",
+        "Hassani, Mehdi"
+      ],
+      "unplaced_no_geocode_in_region": 0
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 60,
-    "openalex": 27
+    "legacy_gb_cache": 62,
+    "openalex": 28
   }
 }
