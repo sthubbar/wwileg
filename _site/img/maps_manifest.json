@@ -1,6 +1,9 @@
 {
   "site": "legendre",
   "n_top": 100,
+  "n_placed": 87,
+  "n_unplaced_no_geocode": 0,
+  "n_unplaced_no_institution": 13,
   "unplaced": [
     "#28 Suryanarayana, D.",
     "#36 Andrea Corazza",
@@ -231,5 +234,9 @@
         "Lior Bary-Soroker"
       ]
     }
-  ]
+  ],
+  "geocode_sources": {
+    "legacy_gb_cache": 60,
+    "openalex": 27
+  }
 }
