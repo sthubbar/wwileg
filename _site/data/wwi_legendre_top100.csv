@@ -22,7 +22,7 @@ rank,name,name_ascii,institution,country,arxiv_rank,openalex_rank,zbmath_rank,ar
 21,Ruqing Chen,Ruqing Chen,National Cheng Kung University,TW,,10,,,6,69,,3,openalex,1994,1994,,,,
 22,Roger Baker,Roger Baker,Brigham Young University,US,79,,12,3,1,2,,34,openalex,2017,2017,,,,
 23,Moubariz Z. Garaev,Moubariz Z. Garaev,Universidad Nacional Autónoma de México,MX,15,,,7,,,,12,openalex,2004,2024,,,,
-24,yue zhang,yue zhang,University of Alabama,US,,13,,,6,11,,,,2013,2026,,,,
+24,yue zhang,yue zhang,University of New Hampshire,US,,13,,,6,11,,,,2013,2026,,,,
 25,Frank Morales,Frank Morales,Machine Science,US,,14,,,6,0,,,,2026,2026,,,,
 26,Brad Rodgers,Brad Rodgers,Queen's University,CA,16,,,7,,,,8,openalex,2013,2024,,,,
 27,Ofir Gorodetsky,Ofir Gorodetsky,Technion - Israel Institute of Technology,IL,12,,,7,,,,5,openalex,2018,2024,,,,
