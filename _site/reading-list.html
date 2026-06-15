@@ -63,6 +63,31 @@ $(document).ready(function() {
 });
 </script>
 
+<h2 style="margin-top:2em">Most cited (all time)</h2>
+<p>The ten most-cited Mathematics works on Legendre&#x27;s conjecture, by citation count in OpenAlex.
+Results are filtered to the Mathematics field (OpenAlex field 26) and ranked by total citations.</p>
+
+<table id="mc" class="display compact stripe hover" style="width:100%">
+<thead><tr><th>#</th><th>Title</th><th>Authors</th><th>Year</th><th>Citations</th></tr></thead>
+<tbody>
+<tr><td style='text-align:center'>1</td><td><a href="https://doi.org/10.4153/cjm-1982-095-9">Prime Numbers in Short Intervals and a Generalized Vaughan Identity</a></td><td>D. R. Heath‐Brown</td><td>1982</td><td style='text-align:right'>198 citations</td></tr>
+<tr><td style='text-align:center'>2</td><td><a href="https://doi.org/10.1112/s0025579300016442">On the distribution of primes in short intervals</a></td><td>P. X. Gallagher</td><td>1976</td><td style='text-align:right'>173 citations</td></tr>
+<tr><td style='text-align:center'>3</td><td><a href="https://doi.org/10.1307/mmj/1029003189">Primes in short intervals.</a></td><td>Helmut Maier</td><td>1985</td><td style='text-align:right'>152 citations</td></tr>
+<tr><td style='text-align:center'>4</td><td><a href="https://doi.org/10.1007/978-1-4612-4816-3_10">Pair Correlation of Zeros and Primes in Short Intervals</a></td><td>D. A. Goldston; Hugh L. Montgomery</td><td>1987</td><td style='text-align:right'>106 citations</td></tr>
+<tr><td style='text-align:center'>5</td><td><a href="https://doi.org/10.1017/s0305004100054657">Almost-primes in arithmetic progressions and short intervals</a></td><td>D. R. Heath‐Brown</td><td>1978</td><td style='text-align:right'>84 citations</td></tr>
+<tr><td style='text-align:center'>6</td><td><a href="https://doi.org/10.1007/bf01637280">Primes in short intervals</a></td><td>Henryk Iwaniec; J. Pintz</td><td>1984</td><td style='text-align:right'>78 citations</td></tr>
+<tr><td style='text-align:center'>7</td><td><a href="https://doi.org/10.1006/jnth.1997.2081">Very Large Gaps between Consecutive Primes</a></td><td>J. Pintz</td><td>1997</td><td style='text-align:right'>70 citations</td></tr>
+<tr><td style='text-align:center'>8</td><td><a href="https://openalex.org/W186959109">The number of primes in a short interval.</a></td><td>D. R. Heath‐Brown</td><td>1988</td><td style='text-align:right'>68 citations</td></tr>
+<tr><td style='text-align:center'>9</td><td><a href="https://doi.org/10.1090/s0002-9947-1990-0972703-x">Unusually large gaps between consecutive primes</a></td><td>Helmut Maier; Carl Pomerance</td><td>1990</td><td style='text-align:right'>68 citations</td></tr>
+<tr><td style='text-align:center'>10</td><td><a href="https://doi.org/10.1093/imrn/rns220">The Variance of the Number of Prime Polynomials in Short Intervals and in Residue Classes</a></td><td>Jonathan P. Keating; Zeév Rudnick</td><td>2012</td><td style='text-align:right'>65 citations</td></tr>
+</tbody>
+</table>
+<script>
+$(document).ready(function() {
+  $('#mc').DataTable({ pageLength: 10, lengthMenu: [10, 25], order: [[4, 'desc']] });
+});
+</script>
+
 </main>
 <footer>
 <p>Maintained by Steve Hubbard (<a href="mailto:admin@wwileg.org">admin@wwileg.org</a>). Data sources: <a href="https://arxiv.org">arXiv</a>, <a href="https://openalex.org">OpenAlex</a>, <a href="https://zbmath.org">zbMATH Open</a>, <a href="https://www.mathgenealogy.org">Mathematics Genealogy Project</a>.</p>
