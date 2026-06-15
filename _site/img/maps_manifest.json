@@ -1,33 +1,31 @@
 {
   "site": "legendre",
   "n_top": 100,
-  "n_placed": 83,
-  "n_unplaced_no_geocode": 1,
-  "n_unplaced_no_institution": 16,
+  "n_placed": 85,
+  "n_unplaced_no_geocode": 2,
+  "n_unplaced_no_institution": 13,
   "unplaced": [
+    "#22 Jie Wu [Institut Elie Cartan de Lorraine, CNRS]",
     "#35 Tsz Ho Chan [Kennesaw State University]",
-    "#12 Yingchun Cai",
     "#16 Suryanarayana, D.",
     "#32 Andrea Corazza",
     "#40 Xavier St Leger",
     "#45 Wolke, Dieter",
     "#56 Runbo Li",
-    "#67 Jiseong Kim",
     "#70 Felix Sidokhine",
     "#79 Johan Andersson",
     "#81 De Koninck, Jean-Marie",
     "#86 Bazzanella, D.",
-    "#89 Min Zhang",
-    "#91 Landau, Edmund",
-    "#93 Yu-Chen Sun",
-    "#96 Shorey, T. N.",
-    "#99 Lola Thompson"
+    "#92 Yu-Chen Sun",
+    "#95 Shorey, T. N.",
+    "#98 Lola Thompson",
+    "#100 Habiba Kadiri"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 83,
-      "drawn_count": 83,
+      "stated_count": 85,
+      "drawn_count": 85,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
@@ -41,6 +39,7 @@
         "Daniel A. Goldston",
         "Iwaniec, H.",
         "Tenenbaum, Gérald",
+        "Yingchun Cai",
         "Terence Tao",
         "James Maynard",
         "Murty, M. Ram",
@@ -49,7 +48,6 @@
         "A. Zaccagnini",
         "Maksym Radziwiłł",
         "Katai, I.",
-        "Jie Wu",
         "Fouvry, E.",
         "Kevin Ford",
         "Paul Pollack",
@@ -89,6 +87,7 @@
         "Jori Merikoski",
         "Maier, Helmut",
         "Hildebrand, Adolf",
+        "Jiseong Kim",
         "Lior Bary-Soroker",
         "Hassani, Mehdi",
         "Cem Yalcin Yildirim",
@@ -106,6 +105,7 @@
         "Hongze Li",
         "Loïc Grenié",
         "Vivian Kuperberg",
+        "Min Zhang",
         "Giuseppe Molteni",
         "Balog, Antal",
         "Yoichi Motohashi",
@@ -114,7 +114,7 @@
         "Alexei Kourbatov",
         "Tolev, D. I."
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 2
     },
     {
       "file": "11_top100_north_america.png",
@@ -200,23 +200,25 @@
         "Maurizio Laporta",
         "Tolev, D. I."
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 10,
-      "drawn_count": 10,
+      "stated_count": 12,
+      "drawn_count": 12,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
-        "Jie Wu",
+        "Yingchun Cai",
         "Jia, Chaohua",
         "Adrian W. Dudek",
         "Matt Visser",
         "Stephan Baier",
+        "Jiseong Kim",
         "Bingrong Huang",
         "Jinjiang Li",
         "Hongze Li",
+        "Min Zhang",
         "Pan, Hao"
       ],
       "unplaced_no_geocode_in_region": 0
@@ -237,7 +239,7 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 67,
-    "openalex": 16
+    "legacy_gb_cache": 68,
+    "openalex": 17
   }
 }
