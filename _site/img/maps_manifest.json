@@ -1,31 +1,26 @@
 {
   "site": "legendre",
   "n_top": 100,
-  "n_placed": 85,
-  "n_unplaced_no_geocode": 2,
-  "n_unplaced_no_institution": 13,
+  "n_placed": 90,
+  "n_unplaced_no_geocode": 10,
+  "n_unplaced_no_institution": 0,
   "unplaced": [
+    "#10 Iwaniec, H. [Rutgers University]",
+    "#16 Suryanarayana, D. [Andhra University]",
     "#22 Jie Wu [Institut Elie Cartan de Lorraine, CNRS]",
+    "#32 Andrea Corazza [-]",
     "#35 Tsz Ho Chan [Kennesaw State University]",
-    "#16 Suryanarayana, D.",
-    "#32 Andrea Corazza",
-    "#40 Xavier St Leger",
-    "#45 Wolke, Dieter",
-    "#56 Runbo Li",
-    "#70 Felix Sidokhine",
-    "#79 Johan Andersson",
-    "#81 De Koninck, Jean-Marie",
-    "#86 Bazzanella, D.",
-    "#92 Yu-Chen Sun",
-    "#95 Shorey, T. N.",
-    "#98 Lola Thompson",
-    "#100 Habiba Kadiri"
+    "#40 Xavier St Leger [-]",
+    "#45 Wolke, Dieter [University of Freiburg]",
+    "#70 Felix Sidokhine [-]",
+    "#79 Johan Andersson [Örebro University]",
+    "#89 Min Zhang [Beijing Information Science and Technology University]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 85,
-      "drawn_count": 85,
+      "stated_count": 90,
+      "drawn_count": 90,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
@@ -37,7 +32,6 @@
         "Pomerance, Carl",
         "Friedlander, J. B.",
         "Daniel A. Goldston",
-        "Iwaniec, H.",
         "Tenenbaum, Gérald",
         "Yingchun Cai",
         "Terence Tao",
@@ -77,6 +71,7 @@
         "Stephan Baier",
         "Brüdern, Jörg",
         "Efrat Bank",
+        "Runbo Li",
         "Sárközy, A.",
         "Louis-Pierre Arguin",
         "A. Perelli",
@@ -99,27 +94,32 @@
         "Alexandru Zaharescu",
         "Kowalski, Emmanuel",
         "Jinjiang Li",
+        "De Koninck, Jean-Marie",
         "Cojocaru, Alina Carmen",
         "Trevor D. Wooley",
         "Xuancheng Shao",
         "Hongze Li",
+        "Bazzanella, D.",
         "Loïc Grenié",
         "Vivian Kuperberg",
-        "Min Zhang",
         "Giuseppe Molteni",
         "Balog, Antal",
+        "Yu-Chen Sun",
         "Yoichi Motohashi",
         "Pan, Hao",
+        "Shorey, T. N.",
         "Maurizio Laporta",
         "Alexei Kourbatov",
-        "Tolev, D. I."
+        "Lola Thompson",
+        "Tolev, D. I.",
+        "Habiba Kadiri"
       ],
-      "unplaced_no_geocode_in_region": 2
+      "unplaced_no_geocode_in_region": 10
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 34,
-      "drawn_count": 34,
+      "stated_count": 37,
+      "drawn_count": 37,
       "match": true,
       "names": [
         "Pomerance, Carl",
@@ -142,6 +142,7 @@
         "Diamond, Harold G.",
         "Andrew Granville",
         "Efrat Bank",
+        "Runbo Li",
         "Louis-Pierre Arguin",
         "Tristan Freiberg",
         "Stewart, C. L.",
@@ -151,25 +152,26 @@
         "Angel V. Kumchev",
         "Alexandru Zaharescu",
         "Kowalski, Emmanuel",
+        "De Koninck, Jean-Marie",
         "Cojocaru, Alina Carmen",
         "Trevor D. Wooley",
         "Xuancheng Shao",
         "Vivian Kuperberg",
-        "Alexei Kourbatov"
+        "Alexei Kourbatov",
+        "Habiba Kadiri"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 2
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 34,
-      "drawn_count": 34,
+      "stated_count": 36,
+      "drawn_count": 36,
       "match": true,
       "names": [
         "János Pintz",
         "Harman, G.",
         "Heath-Brown, D. R.",
         "Kaisa Matomäki",
-        "Iwaniec, H.",
         "Tenenbaum, Gérald",
         "James Maynard",
         "Giovanni Coppola",
@@ -193,14 +195,17 @@
         "Maier, Helmut",
         "Cem Yalcin Yildirim",
         "J. P. Keating",
+        "Bazzanella, D.",
         "Loïc Grenié",
         "Giuseppe Molteni",
         "Balog, Antal",
+        "Yu-Chen Sun",
         "Yoichi Motohashi",
         "Maurizio Laporta",
+        "Lola Thompson",
         "Tolev, D. I."
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 3
     },
     {
       "file": "13_top100_asia.png",
@@ -218,10 +223,10 @@
         "Bingrong Huang",
         "Jinjiang Li",
         "Hongze Li",
-        "Min Zhang",
-        "Pan, Hao"
+        "Pan, Hao",
+        "Shorey, T. N."
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 2
     },
     {
       "file": "14_top100_other.png",
@@ -235,11 +240,11 @@
         "Lior Bary-Soroker",
         "Hassani, Mehdi"
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 3
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 68,
-    "openalex": 17
+    "legacy_gb_cache": 75,
+    "openalex": 15
   }
 }
