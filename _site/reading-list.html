@@ -59,7 +59,7 @@
 </table>
 <script>
 $(document).ready(function() {
-  $('#rl').DataTable({ pageLength: 25, lengthMenu: [15, 25, 50], order: [[0, 'asc']] });
+  $('#rl').DataTable({ paging: false, info: false, lengthChange: false, searching: false, order: [[0, 'asc']] });
 });
 </script>
 
@@ -70,21 +70,21 @@ Results are filtered to the Mathematics field (OpenAlex field 26) and ranked by 
 <table id="mc" class="display compact stripe hover" style="width:100%">
 <thead><tr><th>#</th><th>Title</th><th>Authors</th><th>Year</th><th>Citations</th></tr></thead>
 <tbody>
-<tr><td style='text-align:center' data-order='1'>1</td><td><a href="https://doi.org/10.4153/cjm-1982-095-9">Prime Numbers in Short Intervals and a Generalized Vaughan Identity</a></td><td><a href="people/heath-brown-d-r.html"><strong>D. R. Heath‐Brown</strong></a></td><td>1982</td><td style='text-align:right' data-order='198'>198 citations</td></tr>
-<tr><td style='text-align:center' data-order='2'>2</td><td><a href="https://doi.org/10.1112/s0025579300016442">On the distribution of primes in short intervals</a></td><td>P. X. Gallagher</td><td>1976</td><td style='text-align:right' data-order='173'>173 citations</td></tr>
-<tr><td style='text-align:center' data-order='3'>3</td><td><a href="https://doi.org/10.1307/mmj/1029003189">Primes in short intervals.</a></td><td><a href="people/maier-helmut.html"><strong>Helmut Maier</strong></a></td><td>1985</td><td style='text-align:right' data-order='152'>152 citations</td></tr>
-<tr><td style='text-align:center' data-order='4'>4</td><td><a href="https://doi.org/10.1007/978-1-4612-4816-3_10">Pair Correlation of Zeros and Primes in Short Intervals</a></td><td><a href="people/daniel-a-goldston.html"><strong>D. A. Goldston</strong></a>; <a href="people/montgomery-hugh-l.html"><strong>Hugh L. Montgomery</strong></a></td><td>1987</td><td style='text-align:right' data-order='106'>106 citations</td></tr>
-<tr><td style='text-align:center' data-order='5'>5</td><td><a href="https://doi.org/10.1017/s0305004100054657">Almost-primes in arithmetic progressions and short intervals</a></td><td><a href="people/heath-brown-d-r.html"><strong>D. R. Heath‐Brown</strong></a></td><td>1978</td><td style='text-align:right' data-order='84'>84 citations</td></tr>
-<tr><td style='text-align:center' data-order='6'>6</td><td><a href="https://doi.org/10.1007/bf01637280">Primes in short intervals</a></td><td><a href="people/iwaniec-h.html"><strong>Henryk Iwaniec</strong></a>; <a href="people/janos-pintz.html"><strong>J. Pintz</strong></a></td><td>1984</td><td style='text-align:right' data-order='78'>78 citations</td></tr>
-<tr><td style='text-align:center' data-order='7'>7</td><td><a href="https://doi.org/10.1006/jnth.1997.2081">Very Large Gaps between Consecutive Primes</a></td><td><a href="people/janos-pintz.html"><strong>J. Pintz</strong></a></td><td>1997</td><td style='text-align:right' data-order='70'>70 citations</td></tr>
-<tr><td style='text-align:center' data-order='8'>8</td><td><a href="https://openalex.org/W186959109">The number of primes in a short interval.</a></td><td><a href="people/heath-brown-d-r.html"><strong>D. R. Heath‐Brown</strong></a></td><td>1988</td><td style='text-align:right' data-order='68'>68 citations</td></tr>
-<tr><td style='text-align:center' data-order='9'>9</td><td><a href="https://doi.org/10.1090/s0002-9947-1990-0972703-x">Unusually large gaps between consecutive primes</a></td><td><a href="people/maier-helmut.html"><strong>Helmut Maier</strong></a>; <a href="people/pomerance-carl.html"><strong>Carl Pomerance</strong></a></td><td>1990</td><td style='text-align:right' data-order='68'>68 citations</td></tr>
-<tr><td style='text-align:center' data-order='10'>10</td><td><a href="https://doi.org/10.1093/imrn/rns220">The Variance of the Number of Prime Polynomials in Short Intervals and in Residue Classes</a></td><td><a href="people/j-p-keating.html"><strong>Jonathan P. Keating</strong></a>; <a href="people/z-rudnick.html"><strong>Zeév Rudnick</strong></a></td><td>2012</td><td style='text-align:right' data-order='65'>65 citations</td></tr>
+<tr><td style='text-align:center' data-order='1'>1</td><td><a href="https://doi.org/10.4153/cjm-1982-095-9">Prime Numbers in Short Intervals and a Generalized Vaughan Identity</a></td><td><a href="people/heath-brown-d-r.html"><strong>D. R. Heath‐Brown</strong></a></td><td>1982</td><td style='text-align:right' data-order='198'>198</td></tr>
+<tr><td style='text-align:center' data-order='2'>2</td><td><a href="https://doi.org/10.1112/s0025579300016442">On the distribution of primes in short intervals</a></td><td>P. X. Gallagher</td><td>1976</td><td style='text-align:right' data-order='173'>173</td></tr>
+<tr><td style='text-align:center' data-order='3'>3</td><td><a href="https://doi.org/10.1307/mmj/1029003189">Primes in short intervals.</a></td><td><a href="people/maier-helmut.html"><strong>Helmut Maier</strong></a></td><td>1985</td><td style='text-align:right' data-order='152'>152</td></tr>
+<tr><td style='text-align:center' data-order='4'>4</td><td><a href="https://doi.org/10.1007/978-1-4612-4816-3_10">Pair Correlation of Zeros and Primes in Short Intervals</a></td><td><a href="people/daniel-a-goldston.html"><strong>D. A. Goldston</strong></a>; <a href="people/montgomery-hugh-l.html"><strong>Hugh L. Montgomery</strong></a></td><td>1987</td><td style='text-align:right' data-order='106'>106</td></tr>
+<tr><td style='text-align:center' data-order='5'>5</td><td><a href="https://doi.org/10.1017/s0305004100054657">Almost-primes in arithmetic progressions and short intervals</a></td><td><a href="people/heath-brown-d-r.html"><strong>D. R. Heath‐Brown</strong></a></td><td>1978</td><td style='text-align:right' data-order='84'>84</td></tr>
+<tr><td style='text-align:center' data-order='6'>6</td><td><a href="https://doi.org/10.1007/bf01637280">Primes in short intervals</a></td><td><a href="people/iwaniec-h.html"><strong>Henryk Iwaniec</strong></a>; <a href="people/janos-pintz.html"><strong>J. Pintz</strong></a></td><td>1984</td><td style='text-align:right' data-order='78'>78</td></tr>
+<tr><td style='text-align:center' data-order='7'>7</td><td><a href="https://doi.org/10.1006/jnth.1997.2081">Very Large Gaps between Consecutive Primes</a></td><td><a href="people/janos-pintz.html"><strong>J. Pintz</strong></a></td><td>1997</td><td style='text-align:right' data-order='70'>70</td></tr>
+<tr><td style='text-align:center' data-order='8'>8</td><td><a href="https://openalex.org/W186959109">The number of primes in a short interval.</a></td><td><a href="people/heath-brown-d-r.html"><strong>D. R. Heath‐Brown</strong></a></td><td>1988</td><td style='text-align:right' data-order='68'>68</td></tr>
+<tr><td style='text-align:center' data-order='9'>9</td><td><a href="https://doi.org/10.1090/s0002-9947-1990-0972703-x">Unusually large gaps between consecutive primes</a></td><td><a href="people/maier-helmut.html"><strong>Helmut Maier</strong></a>; <a href="people/pomerance-carl.html"><strong>Carl Pomerance</strong></a></td><td>1990</td><td style='text-align:right' data-order='68'>68</td></tr>
+<tr><td style='text-align:center' data-order='10'>10</td><td><a href="https://doi.org/10.1093/imrn/rns220">The Variance of the Number of Prime Polynomials in Short Intervals and in Residue Classes</a></td><td><a href="people/j-p-keating.html"><strong>Jonathan P. Keating</strong></a>; <a href="people/z-rudnick.html"><strong>Zeév Rudnick</strong></a></td><td>2012</td><td style='text-align:right' data-order='65'>65</td></tr>
 </tbody>
 </table>
 <script>
 $(document).ready(function() {
-  $('#mc').DataTable({ pageLength: 10, lengthMenu: [10, 25], order: [[0, 'asc']] });
+  $('#mc').DataTable({ paging: false, info: false, lengthChange: false, searching: false, order: [[0, 'asc']] });
 });
 </script>
 
