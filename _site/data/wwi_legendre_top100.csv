@@ -79,7 +79,7 @@ rank,name,name_ascii,institution,country,arxiv_rank,openalex_rank,zbmath_rank,ar
 78,Johan Andersson,Johan Andersson,Örebro University,SE,38,,,4,,,,,,2006,2024,,,,
 79,Trevor D. Wooley,Trevor D. Wooley,Purdue University West Lafayette,US,74,22,118,3,3,57,,28,openalex,1990,2026,,,,
 80,Jinjiang Li,Jinjiang Li,China University of Mining and Technology (Beijing),CN,,,52,,,,,6,openalex,2023,2023,,,,
-81,Jean-Marie De Koninck,Jean-Marie De Koninck,Universite Laval,CA,,,53,,,,,,,,,,,,
+81,Jean-Marie De Koninck,Jean-Marie De Koninck,Universite Laval,CA,,,53,,,,,10,openalex,,,,,,
 82,Alina Carmen Cojocaru,Alina Carmen Cojocaru,University of Illinois Chicago,US,,,54,,,,,14,openalex,2004,2023,,,,
 83,Xuancheng Shao,Xuancheng Shao,University of Kentucky,US,41,,,3,,,,10,openalex,2019,2024,,,,
 84,Hongze Li,Hongze Li,Shanghai Jiao Tong University,CN,,,55,1,,,,,,2014,2014,,,,
