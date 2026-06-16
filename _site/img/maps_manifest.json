@@ -1,26 +1,23 @@
 {
   "site": "legendre",
   "n_top": 100,
-  "n_placed": 90,
-  "n_unplaced_no_geocode": 10,
+  "n_placed": 93,
+  "n_unplaced_no_geocode": 7,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#10 Iwaniec, H. [Rutgers University]",
     "#16 Suryanarayana, D. [Andhra University]",
-    "#22 Jie Wu [Institut Elie Cartan de Lorraine, CNRS]",
     "#30 Andrea Corazza [-]",
     "#35 Tsz Ho Chan [Kennesaw State University]",
     "#44 Wolke, Dieter [University of Freiburg]",
     "#69 Felix Sidokhine [-]",
     "#78 Johan Andersson [Örebro University]",
-    "#88 Min Zhang [Beijing Information Science and Technology University]",
     "#97 Gheorghe Robert Cîmpeanu [-]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 90,
-      "drawn_count": 90,
+      "stated_count": 93,
+      "drawn_count": 93,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
@@ -32,6 +29,7 @@
         "Pomerance, Carl",
         "Friedlander, J. B.",
         "Daniel A. Goldston",
+        "Iwaniec, H.",
         "Tenenbaum, Gérald",
         "Yingchun Cai",
         "Terence Tao",
@@ -42,6 +40,7 @@
         "A. Zaccagnini",
         "Maksym Radziwiłł",
         "Katai, I.",
+        "Jie Wu",
         "Fouvry, E.",
         "Kevin Ford",
         "Paul Pollack",
@@ -102,6 +101,7 @@
         "Bazzanella, D.",
         "Loïc Grenié",
         "Vivian Kuperberg",
+        "Min Zhang",
         "Giuseppe Molteni",
         "Balog, Antal",
         "Yu-Chen Sun",
@@ -114,17 +114,18 @@
         "Tolev, D. I.",
         "Habiba Kadiri"
       ],
-      "unplaced_no_geocode_in_region": 10
+      "unplaced_no_geocode_in_region": 7
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 37,
-      "drawn_count": 37,
+      "stated_count": 38,
+      "drawn_count": 38,
       "match": true,
       "names": [
         "Pomerance, Carl",
         "Friedlander, J. B.",
         "Daniel A. Goldston",
+        "Iwaniec, H.",
         "Terence Tao",
         "Murty, M. Ram",
         "Elliott, P. D. T. A.",
@@ -160,12 +161,12 @@
         "Alexei Kourbatov",
         "Habiba Kadiri"
       ],
-      "unplaced_no_geocode_in_region": 2
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 36,
-      "drawn_count": 36,
+      "stated_count": 37,
+      "drawn_count": 37,
       "match": true,
       "names": [
         "János Pintz",
@@ -176,6 +177,7 @@
         "James Maynard",
         "Giovanni Coppola",
         "A. Zaccagnini",
+        "Jie Wu",
         "Fouvry, E.",
         "A. Languasco",
         "Nicolas, J. L.",
@@ -205,12 +207,12 @@
         "Lola Thompson",
         "Tolev, D. I."
       ],
-      "unplaced_no_geocode_in_region": 3
+      "unplaced_no_geocode_in_region": 2
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 12,
-      "drawn_count": 12,
+      "stated_count": 13,
+      "drawn_count": 13,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
@@ -223,10 +225,11 @@
         "Bingrong Huang",
         "Jinjiang Li",
         "Hongze Li",
+        "Min Zhang",
         "Pan, Hao",
         "Shorey, T. N."
       ],
-      "unplaced_no_geocode_in_region": 2
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "14_top100_other.png",
@@ -244,7 +247,8 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 75,
+    "legacy_gb_cache": 74,
+    "verified:2026-06-15(Claude,web; main campus)": 4,
     "openalex": 15
   }
 }
