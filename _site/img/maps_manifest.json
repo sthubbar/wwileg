@@ -1,14 +1,13 @@
 {
   "site": "legendre",
   "n_top": 100,
-  "n_placed": 93,
-  "n_unplaced_no_geocode": 7,
+  "n_placed": 94,
+  "n_unplaced_no_geocode": 6,
   "n_unplaced_no_institution": 0,
   "unplaced": [
     "#16 D. Suryanarayana [Andhra University]",
     "#29 Andrea Corazza [-]",
     "#35 Tsz Ho Chan [Kennesaw State University]",
-    "#44 Dieter Wolke [University of Freiburg]",
     "#68 Felix Sidokhine [-]",
     "#78 Johan Andersson [Örebro University]",
     "#93 Gheorghe Robert Cîmpeanu [-]"
@@ -16,8 +15,8 @@
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 93,
-      "drawn_count": 93,
+      "stated_count": 94,
+      "drawn_count": 94,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
@@ -60,6 +59,7 @@
         "Jesse Thorner",
         "Sergey Konyagin",
         "Christian Axler",
+        "Dieter Wolke",
         "Joni Teräväinen",
         "Harold G. Diamond",
         "Adrian Dudek",
@@ -114,7 +114,7 @@
         "Doychin Tolev",
         "Habiba Kadiri"
       ],
-      "unplaced_no_geocode_in_region": 7
+      "unplaced_no_geocode_in_region": 6
     },
     {
       "file": "11_top100_north_america.png",
@@ -165,8 +165,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 37,
-      "drawn_count": 37,
+      "stated_count": 38,
+      "drawn_count": 38,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -186,6 +186,7 @@
         "Christian Elsholtz",
         "Sergey Konyagin",
         "Christian Axler",
+        "Dieter Wolke",
         "Joni Teräväinen",
         "Joël Rivat",
         "Alexander P. Mangerel",
@@ -207,7 +208,7 @@
         "Lola Thompson",
         "Doychin Tolev"
       ],
-      "unplaced_no_geocode_in_region": 2
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "13_top100_asia.png",
@@ -249,6 +250,7 @@
   "geocode_sources": {
     "legacy_gb_cache": 74,
     "verified:2026-06-15(Claude,web; main campus)": 4,
-    "openalex": 15
+    "openalex": 15,
+    "manual:wikipedia-coords 2026-06-19": 1
   }
 }
