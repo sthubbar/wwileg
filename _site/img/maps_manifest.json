@@ -1,22 +1,19 @@
 {
   "site": "legendre",
   "n_top": 100,
-  "n_placed": 94,
-  "n_unplaced_no_geocode": 6,
+  "n_placed": 97,
+  "n_unplaced_no_geocode": 3,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#16 D. Suryanarayana [Andhra University]",
     "#29 Andrea Corazza [-]",
-    "#35 Tsz Ho Chan [Kennesaw State University]",
     "#68 Felix Sidokhine [-]",
-    "#78 Johan Andersson [Örebro University]",
     "#93 Gheorghe Robert Cîmpeanu [-]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 94,
-      "drawn_count": 94,
+      "stated_count": 97,
+      "drawn_count": 97,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
@@ -34,6 +31,7 @@
         "Terence Tao",
         "James Maynard",
         "M. Ram Murty",
+        "D. Suryanarayana",
         "Giovanni Coppola",
         "Alessandro Zaccagnini",
         "Peter D. T. A. Elliott",
@@ -51,6 +49,7 @@
         "Jean-Louis Nicolas",
         "Clifford Keeble",
         "Ofir Gorodetsky",
+        "Tsz Ho Chan",
         "Michael Filaseta",
         "Moubariz Z. Garaev",
         "Olivier Ramaré",
@@ -92,6 +91,7 @@
         "Bingrong Huang",
         "Alexandru Zaharescu",
         "Trevor D. Wooley",
+        "Johan Andersson",
         "Emmanuel Kowalski",
         "Jinjiang Li",
         "Jean-Marie De Koninck",
@@ -114,12 +114,12 @@
         "Doychin Tolev",
         "Habiba Kadiri"
       ],
-      "unplaced_no_geocode_in_region": 6
+      "unplaced_no_geocode_in_region": 3
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 38,
-      "drawn_count": 38,
+      "stated_count": 39,
+      "drawn_count": 39,
       "match": true,
       "names": [
         "Carl Pomerance",
@@ -136,6 +136,7 @@
         "Paul Pollack",
         "Roger C. Baker",
         "K. Soundararajan",
+        "Tsz Ho Chan",
         "Michael Filaseta",
         "Moubariz Z. Garaev",
         "Brad Rodgers",
@@ -165,8 +166,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 38,
-      "drawn_count": 38,
+      "stated_count": 39,
+      "drawn_count": 39,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -198,6 +199,7 @@
         "Helmut Maier",
         "C. Y. Yildirim",
         "J. P. Keating",
+        "Johan Andersson",
         "Loïc Grenié",
         "D. Bazzanella",
         "Giuseppe Molteni",
@@ -208,16 +210,17 @@
         "Lola Thompson",
         "Doychin Tolev"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 13,
-      "drawn_count": 13,
+      "stated_count": 14,
+      "drawn_count": 14,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
         "Yingchun Cai",
+        "D. Suryanarayana",
         "Chaohua Jia",
         "Adrian Dudek",
         "Matt Visser",
@@ -230,7 +233,7 @@
         "Hao Pan",
         "T. N. Shorey"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "14_top100_other.png",
@@ -250,6 +253,7 @@
   "geocode_sources": {
     "legacy_gb_cache": 74,
     "verified:2026-06-15(Claude,web; main campus)": 4,
+    "verified:2026-06-20(Claude,web)": 3,
     "openalex": 15,
     "manual:wikipedia-coords 2026-06-19": 1
   }
