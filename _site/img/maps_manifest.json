@@ -118,8 +118,8 @@
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 32,
-      "drawn_count": 32,
+      "stated_count": 31,
+      "drawn_count": 31,
       "match": true,
       "names": [
         "Carl Pomerance",
@@ -152,15 +152,14 @@
         "Tristan Freiberg",
         "Sun-Kai Leung",
         "William D. Banks",
-        "Emmanuel Kowalski",
         "Habiba Kadiri"
       ],
       "unplaced_no_geocode_in_region": 2
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 42,
-      "drawn_count": 42,
+      "stated_count": 43,
+      "drawn_count": 43,
       "match": true,
       "names": [
         "Kaisa Matomäki",
@@ -195,6 +194,7 @@
         "Oleksiy Klurman",
         "Doychin Tolev",
         "Loïc Grenié",
+        "Emmanuel Kowalski",
         "Giuseppe Molteni",
         "El Houcein El Abdalaoui",
         "Johan Andersson",
@@ -247,8 +247,8 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 72,
-    "openalex": 14,
+    "legacy_gb_cache": 73,
+    "openalex": 13,
     "verified:2026-06-15(Claude,web; main campus)": 3,
     "verified:2026-06-20(Claude,web)": 3,
     "manual:wikipedia-coords 2026-06-19": 1
