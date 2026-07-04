@@ -1,23 +1,20 @@
 {
   "site": "legendre",
   "n_top": 100,
-  "n_placed": 93,
-  "n_unplaced_no_geocode": 7,
+  "n_placed": 96,
+  "n_unplaced_no_geocode": 4,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#59 Louis-Pierre Arguin [Graduate Center, CUNY]",
     "#70 Wenguang Zhai [China University of Mining and Technology]",
-    "#74 Mithun Kumar Das [Abdus Salam International Centre for Theoretical Physics]",
     "#76 Olivier Bordellès [-]",
-    "#79 Frederik Broucke [Ghent University]",
     "#82 Felix Sidokhine [-]",
     "#98 Leo Murata [Meiji Gakuin University]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 93,
-      "drawn_count": 93,
+      "stated_count": 96,
+      "drawn_count": 96,
       "match": true,
       "names": [
         "Kaisa Matomäki",
@@ -78,6 +75,7 @@
         "Mehdi Hassani",
         "Jori Merikoski",
         "Yu-Chen Sun",
+        "Louis-Pierre Arguin",
         "Xuancheng Shao",
         "Alexandru Zaharescu",
         "Angel Kumchev",
@@ -91,9 +89,11 @@
         "Sun-Kai Leung",
         "Hongze Li",
         "Michael Th. Rassias",
+        "Mithun Kumar Das",
         "D. Bazzanella",
         "Min Zhang",
         "Régis de la Bretèche",
+        "Frederik Broucke",
         "T. N. Shorey",
         "Oleksiy Klurman",
         "Doychin Tolev",
@@ -114,12 +114,12 @@
         "Antal Balog",
         "S. Salerno"
       ],
-      "unplaced_no_geocode_in_region": 7
+      "unplaced_no_geocode_in_region": 4
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 31,
-      "drawn_count": 31,
+      "stated_count": 32,
+      "drawn_count": 32,
       "match": true,
       "names": [
         "Carl Pomerance",
@@ -143,6 +143,7 @@
         "Cameron L. Stewart",
         "Efrat Bank",
         "Adolf Hildebrand",
+        "Louis-Pierre Arguin",
         "Xuancheng Shao",
         "Alexandru Zaharescu",
         "Angel Kumchev",
@@ -154,12 +155,12 @@
         "William D. Banks",
         "Habiba Kadiri"
       ],
-      "unplaced_no_geocode_in_region": 2
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 43,
-      "drawn_count": 43,
+      "stated_count": 45,
+      "drawn_count": 45,
       "match": true,
       "names": [
         "Kaisa Matomäki",
@@ -189,8 +190,10 @@
         "Jori Merikoski",
         "Yu-Chen Sun",
         "Michael Th. Rassias",
+        "Mithun Kumar Das",
         "D. Bazzanella",
         "Régis de la Bretèche",
+        "Frederik Broucke",
         "Oleksiy Klurman",
         "Doychin Tolev",
         "Loïc Grenié",
@@ -206,7 +209,7 @@
         "Antal Balog",
         "S. Salerno"
       ],
-      "unplaced_no_geocode_in_region": 3
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "13_top100_asia.png",
@@ -251,6 +254,9 @@
     "openalex": 13,
     "verified:2026-06-15(Claude,web; main campus)": 3,
     "verified:2026-06-20(Claude,web)": 3,
-    "manual:wikipedia-coords 2026-06-19": 1
+    "manual:wikipedia-coords 2026-06-19": 1,
+    "https://openalex.org/I121847817:mgpschool2026-07-04": 1,
+    "https://openalex.org/I12323705:mgpschool2026-07-04": 1,
+    "https://openalex.org/I32597200:mgpschool2026-07-04": 1
   }
 }
