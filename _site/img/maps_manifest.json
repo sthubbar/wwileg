@@ -5,9 +5,9 @@
   "n_unplaced_no_geocode": 3,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#76 Olivier Bordellès [-]",
-    "#82 Felix Sidokhine [-]",
-    "#98 Leo Murata [Meiji Gakuin University]"
+    "#75 Olivier Bordellès [-]",
+    "#81 Felix Sidokhine [-]",
+    "#97 Leo Murata [Meiji Gakuin University]"
   ],
   "maps": [
     {
@@ -48,7 +48,6 @@
         "Giovanni Coppola",
         "Christian Elsholtz",
         "Stephan Baier",
-        "Dieter Wolke",
         "Daniel A. Goldston",
         "Harold G. Diamond",
         "Imre Kátai",
@@ -112,14 +111,15 @@
         "Jiahai Kan",
         "Edva Roditty-Gershon",
         "Antal Balog",
-        "S. Salerno"
+        "S. Salerno",
+        "Douglas Hensley"
       ],
       "unplaced_no_geocode_in_region": 3
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 32,
-      "drawn_count": 32,
+      "stated_count": 33,
+      "drawn_count": 33,
       "match": true,
       "names": [
         "Carl Pomerance",
@@ -153,14 +153,15 @@
         "Tristan Freiberg",
         "Sun-Kai Leung",
         "William D. Banks",
-        "Habiba Kadiri"
+        "Habiba Kadiri",
+        "Douglas Hensley"
       ],
       "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 45,
-      "drawn_count": 45,
+      "stated_count": 44,
+      "drawn_count": 44,
       "match": true,
       "names": [
         "Kaisa Matomäki",
@@ -177,7 +178,6 @@
         "Jean-Louis Nicolas",
         "Giovanni Coppola",
         "Christian Elsholtz",
-        "Dieter Wolke",
         "Sergey Konyagin",
         "Joël Rivat",
         "Christian Axler",
@@ -252,10 +252,9 @@
   ],
   "geocode_sources": {
     "legacy_gb_cache": 75,
-    "openalex": 12,
+    "openalex": 13,
     "verified:2026-06-15(Claude,web; main campus)": 3,
     "verified:2026-06-20(Claude,web)": 3,
-    "manual:wikipedia-coords 2026-06-19": 1,
     "https://openalex.org/I121847817:mgpschool2026-07-04": 1,
     "https://openalex.org/I12323705:mgpschool2026-07-04": 1,
     "https://openalex.org/I32597200:mgpschool2026-07-04": 1
