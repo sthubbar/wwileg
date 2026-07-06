@@ -118,8 +118,8 @@
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 33,
-      "drawn_count": 33,
+      "stated_count": 32,
+      "drawn_count": 32,
       "match": true,
       "names": [
         "Carl Pomerance",
@@ -136,7 +136,6 @@
         "Andrew Granville",
         "Daniel A. Goldston",
         "Harold G. Diamond",
-        "Imre Kátai",
         "Jesse Thorner",
         "Roger C. Baker",
         "Vivian Kuperberg",
@@ -160,8 +159,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 44,
-      "drawn_count": 44,
+      "stated_count": 45,
+      "drawn_count": 45,
       "match": true,
       "names": [
         "Kaisa Matomäki",
@@ -178,6 +177,7 @@
         "Jean-Louis Nicolas",
         "Giovanni Coppola",
         "Christian Elsholtz",
+        "Imre Kátai",
         "Sergey Konyagin",
         "Joël Rivat",
         "Christian Axler",
@@ -251,8 +251,8 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 75,
-    "openalex": 13,
+    "legacy_gb_cache": 77,
+    "openalex": 11,
     "verified:2026-06-15(Claude,web; main campus)": 3,
     "verified:2026-06-20(Claude,web)": 3,
     "https://openalex.org/I121847817:mgpschool2026-07-04": 1,
