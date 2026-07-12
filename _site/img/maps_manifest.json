@@ -138,8 +138,8 @@
         "Harold G. Diamond",
         "Jesse Thorner",
         "Roger C. Baker",
+        "Jiseong Kim",
         "Cameron L. Stewart",
-        "Efrat Bank",
         "Adolf Hildebrand",
         "Louis-Pierre Arguin",
         "Xuancheng Shao",
@@ -213,8 +213,8 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 16,
-      "drawn_count": 16,
+      "stated_count": 15,
+      "drawn_count": 15,
       "match": true,
       "names": [
         "Igor E. Shparlinski",
@@ -222,7 +222,6 @@
         "D. Suryanarayana",
         "Stephan Baier",
         "Kevin Broughan",
-        "Jiseong Kim",
         "Bingrong Huang",
         "Matt Visser",
         "Jinjiang Li",
@@ -238,12 +237,13 @@
     },
     {
       "file": "14_top100_other.png",
-      "stated_count": 4,
-      "drawn_count": 4,
+      "stated_count": 5,
+      "drawn_count": 5,
       "match": true,
       "names": [
         "Florian Luca",
         "Ofir Gorodetsky",
+        "Efrat Bank",
         "Mehdi Hassani",
         "Lior Bary-Soroker"
       ],
@@ -251,10 +251,10 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 79,
+    "legacy_gb_cache": 78,
     "openalex": 9,
     "verified:2026-06-15(Claude,web; main campus)": 3,
-    "verified:2026-06-20(Claude,web)": 3,
+    "verified:2026-06-20(Claude,web)": 4,
     "https://openalex.org/I121847817:mgpschool2026-07-04": 1,
     "https://openalex.org/I12323705:mgpschool2026-07-04": 1,
     "https://openalex.org/I32597200:mgpschool2026-07-04": 1
