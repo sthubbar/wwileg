@@ -118,8 +118,8 @@
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 32,
-      "drawn_count": 32,
+      "stated_count": 30,
+      "drawn_count": 30,
       "match": true,
       "names": [
         "Carl Pomerance",
@@ -138,7 +138,6 @@
         "Harold G. Diamond",
         "Jesse Thorner",
         "Roger C. Baker",
-        "Vivian Kuperberg",
         "Cameron L. Stewart",
         "Efrat Bank",
         "Adolf Hildebrand",
@@ -150,7 +149,6 @@
         "Jean-Marie De Koninck",
         "Alina Carmen Cojocaru",
         "Tristan Freiberg",
-        "Sun-Kai Leung",
         "William D. Banks",
         "Habiba Kadiri",
         "Douglas Hensley"
@@ -159,8 +157,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 45,
-      "drawn_count": 45,
+      "stated_count": 47,
+      "drawn_count": 47,
       "match": true,
       "names": [
         "Kaisa Matomäki",
@@ -181,6 +179,7 @@
         "Sergey Konyagin",
         "Joël Rivat",
         "Christian Axler",
+        "Vivian Kuperberg",
         "Jörg Brüdern",
         "Cem Yalçın Yıldırım",
         "András Sárközy",
@@ -189,6 +188,7 @@
         "Helmut Maier",
         "Jori Merikoski",
         "Yu-Chen Sun",
+        "Sun-Kai Leung",
         "Michael Th. Rassias",
         "Mithun Kumar Das",
         "D. Bazzanella",
@@ -251,8 +251,8 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 77,
-    "openalex": 11,
+    "legacy_gb_cache": 79,
+    "openalex": 9,
     "verified:2026-06-15(Claude,web; main campus)": 3,
     "verified:2026-06-20(Claude,web)": 3,
     "https://openalex.org/I121847817:mgpschool2026-07-04": 1,
