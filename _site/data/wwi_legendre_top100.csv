@@ -18,7 +18,7 @@ rank,name,name_ascii,institution,country,arxiv_rank,openalex_rank,zbmath_rank,ar
 17,Henryk Iwaniec,Henryk Iwaniec,Rutgers University,US,,106,9,,10,307,,50,openalex,1979,2010,,,,
 18,Joni Teräväinen,Joni Teravainen,University of Cambridge,GB,7,11,162,11,16,75,,9,openalex,2019,2023,,,,
 19,Paul Pollack,Paul Pollack,University of Georgia,US,23,68,21,6,9,77,,13,openalex,2012,2014,,,,
-20,Jie Wu,Jie Wu,Centre National de la Recherche Scientifique,FR,49,70,14,4,8,57,,,,2010,2010,,,,
+20,Jie Wu,Jie Wu,Université Paris-Est Créteil Val-de-Marne,FR,49,70,14,4,8,57,,19,openalex,2010,2010,,,,
 21,Etienne Fouvry,Etienne Fouvry,Université Paris-Saclay,FR,,,20,,,,,28,openalex,1990,1990,,,,
 22,Yu-Chen Sun,Yu-Chen Sun,University of Turku,FI,16,,,4,,,,,,2022,2022,,,,
 23,Kevin Ford,Kevin Ford,University of Illinois Urbana-Champaign,US,24,,28,5,1,0,,,,2008,2018,,,,
