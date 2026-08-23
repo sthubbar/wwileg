@@ -1,23 +1,24 @@
 {
   "site": "legendre",
   "n_top": 89,
-  "n_placed": 82,
-  "n_unplaced_no_geocode": 7,
+  "n_placed": 81,
+  "n_unplaced_no_geocode": 8,
   "n_unplaced_no_institution": 0,
   "unplaced": [
     "#9 Runbo Li [The High School Affiliated to Renmin University of China]",
     "#30 Adrian Dudek [University of Queensland]",
-    "#65 Ethan Smith [Northern Michigan University]",
+    "#65 Ethan Smith [-]",
     "#70 Alexei Kourbatov [Independent]",
     "#72 Fred B. Holt [Independent]",
     "#77 Aled Walker [Kings College London]",
-    "#87 Qi Yao [-]"
+    "#86 Michaela Cully-Hugill [-]",
+    "#87 Qi Yao [Dalhousie University]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 82,
-      "drawn_count": 82,
+      "stated_count": 81,
+      "drawn_count": 81,
       "match": true,
       "names": [
         "Kaisa Matomäki",
@@ -99,11 +100,10 @@
         "Greg Martin",
         "Minggao Lu",
         "Ben Green",
-        "Michaela Cully-Hugill",
         "Feng Zhao",
         "Efthymios Sofos"
       ],
-      "unplaced_no_geocode_in_region": 7
+      "unplaced_no_geocode_in_region": 8
     },
     {
       "file": "11_top100_north_america.png",
@@ -140,7 +140,7 @@
         "A. H. Ledoan",
         "Greg Martin"
       ],
-      "unplaced_no_geocode_in_region": 3
+      "unplaced_no_geocode_in_region": 4
     },
     {
       "file": "12_top100_europe.png",
@@ -188,8 +188,8 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 15,
-      "drawn_count": 15,
+      "stated_count": 14,
+      "drawn_count": 14,
       "match": true,
       "names": [
         "Matt Visser",
@@ -205,7 +205,6 @@
         "Victor Zhenyu Guo",
         "Timothy S. Trudgian",
         "Minggao Lu",
-        "Michaela Cully-Hugill",
         "Feng Zhao"
       ],
       "unplaced_no_geocode_in_region": 3
@@ -229,7 +228,6 @@
     "verified:2026-06-15(Claude,web; main campus)": 1,
     "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
     "openalex": 5,
-    "verified:web (Claude,2026-07-11)": 1,
-    "verified:2026-06-20(Claude,web)": 1
+    "verified:web (Claude,2026-07-11)": 1
   }
 }
