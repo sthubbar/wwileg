@@ -224,10 +224,10 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 73,
+    "legacy_gb_cache": 72,
     "verified:2026-06-15(Claude,web; main campus)": 1,
     "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
-    "openalex": 5,
+    "openalex": 6,
     "verified:web (Claude,2026-07-11)": 1
   }
 }
